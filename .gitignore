@@ -1,0 +1,35 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Large data files (TIF files are too big for GitHub)
+DCM_extracted/
+*.tif
+
+# DCM ZIP files (too large for GitHub - keep locally)
+DCM/*.zip
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Executed notebook (keep the original, exclude the large executed one)
+analysis_executed.ipynb
