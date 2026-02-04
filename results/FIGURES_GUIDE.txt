@@ -341,6 +341,137 @@ TABLE:
 
 
 ================================================================================
+                      CAPTIONS QUICK REFERENCE (COPY-PASTE)
+================================================================================
+
+Below are all figure captions in order, ready to copy into your paper.
+Replace "Figure X" with actual figure numbers.
+
+--------------------------------------------------------------------------------
+METHODOLOGY FIGURES
+--------------------------------------------------------------------------------
+
+Figure 1 (glacier_outlines_map.png):
+Distribution of RGI 7.0 glacier outlines across the study region encompassing
+Sikkim, Bhutan, and Arunachal Pradesh. Color gradient represents longitude,
+illustrating the west-to-east extent of the analyzed glaciers (n = 6,479,
+total area = 5,402 km²).
+
+Figure 2 (methodology_flowchart.png):
+Methodological workflow for glacier elevation change analysis. The process
+involves extraction of DCM tiles, glacier masking using RGI 7.0 outlines,
+outlier filtering, and statistical aggregation at pixel, glacier, and
+regional scales.
+
+Figure 3 (dcm_tile_coverage.png):
+Spatial coverage of TanDEM-X DEM Change Map (DCM) tiles used in this study.
+The 37 DCM tiles (1° x 1° each) provide complete coverage of the glacier-
+bearing regions. Glacier outlines from RGI 7.0 are shown in blue.
+
+Figure 4 (sample_dcm_tile.png):
+Sample TanDEM-X DCM tile showing raw elevation change values (m). Positive
+values (blue) indicate surface rise, while negative values (red) indicate
+surface lowering. NoData regions appear in gray.
+
+Figure 5 (masking_example.png):
+Illustration of the glacier masking methodology. (a) DCM tile with elevation
+change values, (b) RGI 7.0 glacier outlines, (c) Masked output showing
+elevation change values only within glacier boundaries.
+
+Figure 6 (outlier_filtering_illustration.png):
+Distribution of raw elevation change values showing the filtering thresholds
+applied. Values outside the range [-150m, +100m] were excluded to remove
+radar artifacts and phase unwrapping errors. The filtered dataset retains
+physically realistic glacier surface changes.
+
+Figure 7 (data_quality_map.png):
+Spatial distribution of data quality metrics across the study region. Color
+indicates the number of valid DCM pixels per glacier, with warmer colors
+representing better data coverage.
+
+--------------------------------------------------------------------------------
+RESULTS FIGURES
+--------------------------------------------------------------------------------
+
+Figure 8 (glacier_thinning_map.png):
+Spatial distribution of mean glacier surface elevation change across Sikkim,
+Bhutan, and Arunachal Pradesh. Red colors indicate surface lowering (thinning),
+blue colors indicate surface rise (thickening). Color scale is centered at
+zero and clipped at the 2nd and 98th percentiles to enhance visualization
+of moderate changes.
+
+Figure 9 (elevation_change_histogram.png):
+Distribution of glacier surface elevation changes at pixel level (n = 6,815,222
+pixels). (a) Full distribution showing the range of values after filtering.
+(b) Zoomed view (-30m to +20m) highlighting the modal distribution. Red line
+indicates mean (-2.42m), orange line indicates median (-3.37m). 58.7% of
+pixels show surface lowering.
+
+Figure 10 (cumulative_distribution.png):
+Cumulative distribution of per-glacier mean elevation changes. The median
+value of -2.95m (red dot) indicates that 50% of glaciers experienced thinning
+greater than this magnitude. Overall, 71.4% of glaciers show net surface
+lowering over the study period.
+
+Figure 11 (regional_comparison.png):
+Regional comparison of glacier elevation changes. (a) Box plot showing the
+distribution of per-glacier mean elevation change by region. (b) Mean
+elevation change with standard error bars. Bhutan shows the highest mean
+thinning (-1.45m), followed by Arunachal Pradesh (-0.96m) and Sikkim (-0.37m).
+
+Figure 12 (elevation_band_analysis.png):
+Elevation change patterns by altitude band. (a) Box plots showing the
+distribution of per-glacier changes within each 500m elevation band.
+(b) Mean change with standard error. Maximum thinning occurs in the
+4500-5500m range, while highest elevations (>6000m) show near-zero or
+positive changes, consistent with accumulation zone behavior.
+
+Figure 13 (elevation_dependence.png):
+Relationship between glacier median elevation and surface elevation change.
+Points are colored by glacier area (km²). No strong linear relationship is
+observed, suggesting elevation alone does not determine thinning rates in
+this region.
+
+Figure 14 (size_vs_thinning.png):
+Relationship between glacier size and surface elevation change. Each point
+represents one glacier, colored by elevation change magnitude. The weak
+trend line (R² = 0.011) indicates glacier size is not a significant
+predictor of thinning rate. Vertical dashed lines separate size categories:
+small (<1 km²), medium (1-10 km²), and large (>10 km²).
+
+Figure 15 (top_thinning_glaciers.png):
+Top 20 glaciers exhibiting the highest surface lowering. Bar color indicates
+region (blue = Sikkim, orange = Bhutan, green = Arunachal Pradesh). Labels
+show glacier area in km². The most extreme case (RGI ID: G-15-15607) shows
+mean surface lowering of -94m, likely indicating a surge or collapse event.
+
+--------------------------------------------------------------------------------
+DISCUSSION FIGURES
+--------------------------------------------------------------------------------
+
+Figure 16 (volume_change_by_region.png):
+Regional contribution to total glacier volume change. (a) Total volume change
+by region. (b) Proportional contribution to overall volume loss. Despite
+having moderate per-glacier thinning rates, Arunachal Pradesh contributes
+71.8% of total volume loss due to its larger glacierized area.
+
+Figure 17 (aspect_analysis.png):
+Mean elevation change by glacier aspect (orientation). Bar height represents
+the absolute magnitude of change, while color indicates direction (red =
+thinning, blue = thickening). South and southwest-facing glaciers show
+greater thinning, consistent with increased solar radiation exposure.
+
+--------------------------------------------------------------------------------
+TABLE
+--------------------------------------------------------------------------------
+
+Table 1 (summary_statistics_table.png):
+Summary statistics of glacier elevation change analysis for the Eastern
+Himalayan study region (Sikkim, Bhutan, Arunachal Pradesh) based on
+TanDEM-X DEM Change Maps (~8-year observation period, 2014-2022).
+
+
+================================================================================
                               FILE INFORMATION
 ================================================================================
 
